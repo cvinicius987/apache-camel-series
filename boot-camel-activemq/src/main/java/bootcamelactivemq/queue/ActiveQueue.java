@@ -2,7 +2,7 @@ package bootcamelactivemq.queue;
 
 public enum ActiveQueue {
 
-    QUEUE("log-queue");
+    QUEUE("order-queue");
 
     private String queue;
 
