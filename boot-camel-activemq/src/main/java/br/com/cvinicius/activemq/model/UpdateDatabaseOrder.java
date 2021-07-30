@@ -1,12 +1,11 @@
-package bootcamelactivemq.queue.receiver;
+package br.com.cvinicius.activemq.model;
 
-import bootcamelactivemq.queue.Order;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
-class UpdateDatabaseOrder {
+public class UpdateDatabaseOrder {
 
     private Logger log = LoggerFactory.getLogger(UpdateDatabaseOrder.class);
 

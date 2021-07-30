@@ -1,4 +1,4 @@
-package bootcamelactivemq;
+package br.com.cvinicius.activemq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

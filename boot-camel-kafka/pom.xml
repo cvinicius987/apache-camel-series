@@ -9,40 +9,38 @@
 		<relativePath/> 
 	</parent>
 	<groupId>br.com.cvinicius</groupId>
-	<artifactId>boot-camel-activemq</artifactId>
+	<artifactId>boot-camel-kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 		
 	<properties>
 		<java.version>11</java.version>
+
+		<camel.version>3.11.0</camel.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-			<version>3.11.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-activemq-starter</artifactId>
-			<version>3.11.0</version>
+			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-jackson-starter</artifactId>
-			<version>3.11.0</version>
+			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-jacksonxml-starter</artifactId>
-			<version>3.11.0</version>
+			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jsr310</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-kafka-starter</artifactId>
+			<version>${camel.version}</version>
 		</dependency>
 
 		<dependency>

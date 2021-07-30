@@ -1,4 +1,4 @@
-package bootcamelactivemq;
+package br.com.cvinicius.kafka;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -12,7 +12,11 @@ public class JacksonConfiguration {
     @Bean
     public ObjectMapper mapper(){
 
-        return new ObjectMapper().registerModule(new JavaTimeModule())
-                                 .configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+        var mapper = new ObjectMapper();
+
+        mapper.registerModule(new JavaTimeModule());
+        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+
+        return mapper;
     }
 }

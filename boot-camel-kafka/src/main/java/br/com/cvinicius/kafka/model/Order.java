@@ -1,23 +1,19 @@
-package bootcamelactivemq.queue;
+package br.com.cvinicius.kafka.model;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class Order {
 
     private UUID id;
     private String product;
-    private LocalDateTime date;
     private BigDecimal value;
 
     public Order(){}
 
-    public Order(UUID id, String product, LocalDateTime date, BigDecimal value) {
+    public Order(UUID id, String product, BigDecimal value) {
         this.id = id;
         this.product = product;
-        this.date = date;
         this.value = value;
     }
 
@@ -29,10 +25,6 @@ public class Order {
         return product;
     }
 
-    public LocalDateTime getDate() {
-        return date;
-    }
-
     public BigDecimal getValue() {
         return value;
     }
@@ -42,7 +34,6 @@ public class Order {
         return "Order{" +
                 "id=" + id +
                 ", product='" + product + '\'' +
-                ", date=" + date +
                 ", value=" + value +
                 '}';
     }
