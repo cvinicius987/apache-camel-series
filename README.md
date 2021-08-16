@@ -1,18 +1,20 @@
 # Apache Camel
 
-Exemplos diversos de integrações utilizando **Apache Camel**.
-
 - simple-route
-  - Criação de uma rota simples (Camel);
+  - Create a simple route with Apache Camel;
 - boot-camel-files
-  - Criação de rota para cópia de arquivos (Camel, Spring Boot);
+  - Create a route to copy files;
 - boot-camel-activemq 
-  - Criação de rota para integração com ActiveMQ (Camel, Spring Boot, ActiveMQ);
+  - Create route to integration with ActiveMQ (Camel, Spring Boot, ActiveMQ);
 - boot-camel-kafka
-  - Criação de rota para integração com Apache Kafka (Camel, Spring Boot, Kafka);
+  - Create a route to integratin with Apache Kafka (Camel, Spring Boot, Kafka);
 - boot-camel-http
-  - Criação de rota para integração com WebApi (Camel, Spring Boot, Web);
+  - Create a route to integration and invoke a WebApi (Camel, Spring Boot, Web);
 - boot-camel-condition
-  - Criação de rota para integração com WebApi realizando condições no resultado (Camel, Spring Boot, Web);
+  - Create a route to integration with WebApi applying multi conditions (Camel, Spring Boot, Web);
+- boot-camel-complex-logic
+  - Create a route to manipulate the complex decision logic (Camel, Spring Boot, Web);
+- eip-patterns-multicast
+  - Create a route with Multicast Pattern (Camel, Spring Boot, Web);
 
 
