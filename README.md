@@ -16,5 +16,9 @@
   - Create a route to manipulate the complex decision logic (Camel, Spring Boot, Web);
 - eip-patterns-multicast
   - Create a route with Multicast Pattern (Camel, Spring Boot, Web);
+- eip-patterns-splitter-csv-activemq
+  - Create a route with Splitter Pattern (Camel, Spring Boot, CSV, ActiveMQ);
+- eip-patterns-aggregate
+  - Create a route with Aggregate Pattern (Camel, Spring Boot, CSV, ActiveMQ);
 
 
