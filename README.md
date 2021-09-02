@@ -43,5 +43,5 @@
 
 - [Apache Camel](https://camel.apache.org/docs/)
 - [Apache Camel Examples](https://github.com/apache/camel-examples)
-- [Apache Camel Tutorial Points] (https://www.tutorialspoint.com/apache_camel/index.htm)
-- [Apache Camel Course] (https://www.udemy.com/course/apache-camel-framework-with-spring-boot/)
+- [Apache Camel Tutorial Points](https://www.tutorialspoint.com/apache_camel/index.htm)
+- [Apache Camel Course](https://www.udemy.com/course/apache-camel-framework-with-spring-boot/)
