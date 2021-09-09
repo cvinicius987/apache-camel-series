@@ -27,9 +27,9 @@
   - eip-patterns-aggregate
     - Create a route with Aggregate Pattern (Camel, Spring Boot, CSV, ActiveMQ);
   - eip-pattern-routing-slip
-    - Create a route with Routing Slip Pattern (Camel, Spring Boot, ActiveMQ, Apache Kafka);
+    - Create a route with Routing Slip Pattern (Camel, Spring Boot);
   - eip-pattern-dynamic-route
-    - Create a route with Dynamic Route Pattern (Camel, Spring Boot, ActiveMQ, Apache Kafka);
+    - Create a route with Dynamic Route Pattern (Camel, Spring Boot);
 
 ### **Best Practices**
   - boot-camel-logging-tracing
@@ -45,3 +45,4 @@
 - [Apache Camel Examples](https://github.com/apache/camel-examples)
 - [Apache Camel Tutorial Points](https://www.tutorialspoint.com/apache_camel/index.htm)
 - [Apache Camel Course](https://www.udemy.com/course/apache-camel-framework-with-spring-boot/)
+
