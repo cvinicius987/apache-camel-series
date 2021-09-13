@@ -24,20 +24,11 @@
     - Create a route with Multicast Pattern (Camel, Spring Boot, Web);
   - eip-patterns-splitter-csv-activemq
     - Create a route with Splitter Pattern (Camel, Spring Boot, CSV, ActiveMQ);
-  - eip-patterns-aggregate
-    - Create a route with Aggregate Pattern (Camel, Spring Boot, CSV, ActiveMQ);
   - eip-pattern-routing-slip
     - Create a route with Routing Slip Pattern (Camel, Spring Boot);
   - eip-pattern-dynamic-route
     - Create a route with Dynamic Route Pattern (Camel, Spring Boot);
 
-### **Best Practices**
-  - boot-camel-logging-tracing
-    - Example Tracing and Logging on the Camel Apps;
-  - boot-camel-standalone
-    - Create app without web context;
-  - boot-camel-secure
-    - Using secure messages on the Camel Apps; 
 
 ### References about Apache Camel
 
